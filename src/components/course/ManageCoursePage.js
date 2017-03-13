@@ -9,7 +9,6 @@ import toastr from 'toastr';
 export class ManageCoursePage extends React.Component {
   constructor(props, context) {
     super(props, context);
-    debugger;
     this.state = {
       course: Object.assign({}, props.course),
       errors: {},
